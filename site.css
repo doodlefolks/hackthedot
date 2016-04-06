@@ -1,0 +1,32 @@
+.pick{
+  position: fixed;
+  font-size: 80px;
+  font-family: monospace;
+  color: green;
+  left: 30%;
+  z-index: 10;
+}
+
+.set1{
+  display:block;
+}
+
+.set2.set3.set4.set5.set6.set7.set8.set9.set10{
+  display:none;
+}
+
+.left{
+  position: fixed;
+  width: 50vw;
+  height: 100vh;
+  left:0;
+  background-color:rgba(255, 0, 255, 0.5);
+}
+
+.right{
+  position: fixed;
+  width: 50vw;
+  height: 100vh;
+  right:0;
+  background-color:rgba(255, 255, 0, 0.5);
+}
