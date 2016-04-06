@@ -2,7 +2,7 @@
   var trees = ['Tree/bigTreeHD.jpg', 'Tree/blueTree.jpg', 'Tree/bonsaiTree.jpg', 'Tree/cherryTree.jpg', 'Tree/christmasTree.jpg', 'Tree/coconuteTree.jpg', 'Tree/csTree.jpg', 'Tree/deadTree.jpg', 'Tree/pineTree.jpg', 'Tree/treeOfLife.jpg'];
   var notTrees = ['Bush/bush0.jpg', 'Bush/bush1.jpg', 'Bush/bush2.jpg', 'Bush/bush3.jpg', 'Bush/bush4.jpg', 'Bush/bush5.jpg', 'Bush/bush6.jpg', 'Bush/bush7.jpg', 'Bush/bush8.jpg', 'Bush/bush9.jpg'];
   var score = 0;
-  
+
   function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
@@ -43,10 +43,12 @@
       var message;
       if (score < 10) {
         message = 'Not a tree hugger...';
+      } else {
+        message = 'A tree hugger for sure';
       }
-      alert('Your score:' score);
+      alert('Your score: ' + score);
       alert(message);
       document.location.reload(true);
     }, 10000);
   });
-}())
+}());
