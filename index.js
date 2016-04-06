@@ -1,5 +1,5 @@
 (function() {
-  var trees = [];
+  var trees = ['/Tree/bigTreeHD.jpg', '/Tree/blueTree.jpg', '/Tree/bonsaiTree.jpg', '/Tree/cherryTree.jpg', '/Tree/christmasTree.jpg', '/Tree/coconuteTree.jpg', '/Tree/csTree.jpg', '/Tree/deadTree.jpg', '/Tree/pineTree.jpg', '/Tree/treeOfLife.jpg'];
   var notTrees = [];
 
   function getRandomInt(min, max) {
