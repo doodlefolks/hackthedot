@@ -41,7 +41,7 @@
     });
     window.setTimeout(function () {
       var message;
-      if (score < 10) {
+      if (score < 7) {
         message = 'Not a tree hugger...';
       } else {
         message = 'A tree hugger for sure';
