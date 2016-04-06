@@ -2,7 +2,7 @@
   position: fixed;
   font-size: 80px;
   font-family: monospace;
-  color: green;
+  color: red;
   left: 30%;
   z-index: 10;
 }
