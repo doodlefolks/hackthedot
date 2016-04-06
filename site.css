@@ -28,3 +28,13 @@
   height: 100vh;
   right:0;
 }
+
+#score{
+  position: fixed;
+  font-size: 180px;
+  font-family: monospace;
+  color: orange;
+  left: 46%;
+  bottom: 0;
+  z-index: 10;
+}
